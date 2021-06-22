@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
             tvWeather.setText(data.getCity() + " " + data.getTemp() + "°c");
         });
 
-        requestWeatherTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,"Bruxelles, CA");
+        requestWeatherTask.executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,"Bruxelles, BE");
+
     }
 }

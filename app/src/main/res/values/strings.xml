@@ -21,5 +21,5 @@
     <string name="finish_date_task">Finish at %s</string>
     <string name="limit_date_task">Limit date at %s</string>
     <string name="date_pattern">MMMM dd. yyyy</string>
-    <string name="tv_main_weather">Meteo</string>
+    <string name="weather">Meteo</string>
 </resources>
