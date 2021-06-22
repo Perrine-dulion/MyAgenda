@@ -16,6 +16,13 @@
         android:background="@drawable/background" />
 
     <TextView
+        android:id="@+id/tv_main_weather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Méteo"
+        android:textSize="15sp" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/subtitle_add_task"

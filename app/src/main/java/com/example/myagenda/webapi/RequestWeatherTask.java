@@ -45,7 +45,7 @@ public class RequestWeatherTask extends AsyncTask<String, Void, WeatherData> {
 
             URL url = new URL(URL_BASE.replace("__city__", cities[0]));
 
-            /
+
             connection = (HttpURLConnection) url.openConnection();
             connection.connect();
 
