@@ -23,5 +23,5 @@
     <string name="date_pattern">MMMM dd. yyyy</string>
     <string name="weather">Meteo</string>
     <string name="new_task">Ajouter un evenement </string>
-    <string name="no_event">Pas de rendez-vous</string>
+    <string name="no_event">Pas de rendez-vous ce jour :)</string>
 </resources>
