@@ -22,4 +22,6 @@
     <string name="limit_date_task">Limit date at %s</string>
     <string name="date_pattern">MMMM dd. yyyy</string>
     <string name="weather">Meteo</string>
+    <string name="new_task">Ajouter un evenement </string>
+    <string name="no_event">Pas de rendez-vous</string>
 </resources>

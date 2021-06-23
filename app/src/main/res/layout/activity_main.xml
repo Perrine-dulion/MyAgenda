@@ -12,8 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="102dp"
         android:layout_marginTop="0dp"
-        android:layout_marginBottom="30dp"
-        android:background="@drawable/background" />
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background"
+        />
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -26,37 +27,23 @@
         android:text="@string/weather"
         android:textSize="15sp" />
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/padding_form"
+        android:layout_marginBottom="@dimen/margin_form">
+
+
+    </LinearLayout>
+
     <TextView
+        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/subtitle_add_task"
-        android:layout_marginTop="10dp"
-        style="@style/subtitle_app"
-        android:layout_marginBottom="20dp"
-        />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="@dimen/padding_form"
-        android:layout_marginBottom="@dimen/margin_form">
-
-        <TextView
-            android:layout_width="@dimen/width_label"
-            android:layout_marginEnd="10dp"
-            android:layout_height="wrap_content"
-            android:text="@string/label_name"
-            />
-
-        <EditText
-            android:id="@+id/et_add_task_name"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            />
-    </LinearLayout>
-
-
+        android:text="@string/no_event"
+        android:layout_marginBottom="40dp"
+        style="@style/subtitle_app"/>
 
 
     <LinearLayout
@@ -65,53 +52,7 @@
         android:paddingHorizontal="@dimen/padding_form"
         android:layout_marginBottom="@dimen/margin_form">
 
-        <TextView
-            android:layout_width="@dimen/width_label"
-            android:layout_marginEnd="10dp"
-            android:layout_height="wrap_content"
-            android:text="@string/label_category"
-            />
 
-        <Spinner
-            android:id="@+id/sp_add_task_category"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            />
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingHorizontal="@dimen/padding_form"
-        android:layout_marginBottom="@dimen/margin_form">
-
-        <TextView
-            android:layout_width="@dimen/width_label"
-            android:layout_marginEnd="10dp"
-            android:layout_height="wrap_content"
-            android:text="@string/label_limit_date"
-            />
-
-        <EditText
-            android:id="@+id/et_add_task_limit_date"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:inputType="date"
-            />
-
-        <ImageView
-            android:id="@+id/img_add_task_open_calendar"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-
-            android:layout_marginVertical="5dp"
-            android:layout_marginHorizontal="5dp"
-            />
 
     </LinearLayout>
 
@@ -127,7 +68,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_valide_task"
+            android:text="@string/new_task"
             android:textColor="@android:color/black"
             android:backgroundTint="@color/white"
 
@@ -140,17 +81,7 @@
             android:layout_height="0dp"
             />
 
-        <Button
-            android:id="@+id/btn_add_task_cancel"
-            android:layout_width="wrap_content"
-            android:maxWidth="120dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/btn_cancel"
-            android:textColor="@android:color/black"
-            android:backgroundTint="@color/white"
 
-            />
 
     </LinearLayout>
     <TextView
@@ -166,6 +97,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/default_margin"
+        app:layoutManager="androidx.recyclerview.widget.StaggeredGridLayoutManager"
         />
 
 
