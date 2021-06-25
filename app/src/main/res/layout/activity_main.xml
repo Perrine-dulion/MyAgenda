@@ -26,7 +26,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/weather"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        android:textColor="#3F74B5"/>
 
 
     <LinearLayout
